@@ -15,31 +15,37 @@ End index: <3, 2>*/
 int sqt(float);
 int main(void)
 {
+ // a is 2d array to store the sting
 char str[100],str1[100],a[100][100];
+ //main variables inx =index of string  n= length of string rc=number of rows and coloumn(square matrix)
 int n,rc,i,j,inx,k,c;
+ //enter main string to str
 printf("Enter the string : ");
 scanf("%s",str);
+//find length of string
 for(n=0;str[n];n++);
+ // find row and coloumn size by taking square root of n(length of string
 if(n=sqt(n)*sqt(n))
  rc=sqt(n)+1;
 else
  rc=sqt(n);
+ //enter each character in to 2 diamensional array
 for(inx=0,i=0;i<rc ;i++)
   for(j=0;j<rc && str[inx];j++)
    { 
       a[i][j]=str[inx++];
    }
-
+// print contents of 2d array
 for(i=0;i<rc;i++)
 {
   for(j=0;j<rc;j++)
    printf("%c ",a[i][j]);
   printf("\n");
 }
-
+//Enter the substring as str1
 printf("Enter word to found  :  ");
 scanf("%s",str1);
-
+//find substring in rows
 for(i=0;i<rc;i++)
   for(j=0;j<rc;j++)
     if(a[i][j]==str1[0])
@@ -47,7 +53,7 @@ for(i=0;i<rc;i++)
        if(str1[c]=='\0'){
           printf("\nStart index : <%d ,%d>   End index: <%d, %d>\n",i,j,i,k-1);}
     }
-
+//find substring in coloumns
 for(i=0;i<rc;i++)
   for(j=0;j<rc;j++)
     if(a[j][i]==str1[0])
@@ -60,8 +66,7 @@ return 0;
 
 }
 
-
-
+//user defined function to find square root by Babylonian method
 int sqt(float n)
 {
 float x=n,y=1;
