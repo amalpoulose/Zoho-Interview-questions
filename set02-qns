@@ -1,0 +1,134 @@
+1) First Round : Written
+
+40 C output questions. 2 Hours.
+30 1Mark and 10 2Mark questions. IT WAS NOT MCQ. The questions were challenging and covered all C concepts.
+
+2) Second Round : Coding
+
+Around 150 students shortlisted for this round. It was a local machine coding round. A staff will be assigned to a group of 5 students. He made note of the time took for solving each question. There was totally 7 questions and I solved 4 questions and did not complete the 5th question.
+
+A) Alternate sorting: Given an array of integers, rearrange the array in such a way that the first element is first maximum and second element is first minimum.
+
+    Eg.) Input  : {1, 2, 3, 4, 5, 6, 7}
+         Output : {7, 1, 6, 2, 5, 3, 4} 
+
+B) Remove unbalanced parentheses in a given expression.
+
+    Eg.) Input  : ((abc)((de))
+         Output : ((abc)(de))  
+
+         Input  : (((ab)
+         Output : (ab) 
+
+C) Form a number system with only 3 and 4. Find the nth number of the number system.
+Eg.) The numbers are: 3, 4, 33, 34, 43, 44, 333, 334, 343, 344, 433, 434, 443, 444, 3333, 3334, 3343, 3344, 3433, 3434, 3443, 3444 ….
+
+D) Check whether a given mathematical expression is valid.
+Z
+    Eg.) Input  : (a+b)(a*b)
+         Output : Valid
+
+         Input  : (ab)(ab+)
+         Output : Invalid
+
+         Input  : ((a+b)
+         Output : Invalid 
+
+I don’t remember the 5th question.
+
+3) Third Round : Advanced Coding
+A matrix game was given with 5 rules. We were asked to implement each of the rules separately.
+
+
+  R3 | -   -   - |
+  R2 | -   -   - |
+  R1 | -   -   - |
+       C1  C2  C3  
+
+Each of the 9 cells can either be empty or filled with an atom. R3, R2, R1 are the rays that originate from the left. C1, C2, C3 are the rays that originate from the bottom of the box.
+
+Input : Position of the atoms and the rays that gets originated from the outside of the box.
+
+  Eg.) 3
+       3 1
+       2 2
+       1 3
+       3
+       R3 C1 C3
+
+Output  : Print the box. 
+
+Rule 1:
+A ray that has an atom in its path should print ‘H’ (Hit) If it does not have any atoms in its path, the ray should pass to the other side.
+
+       C1      C3
+  R3 | -   -   - | R3
+  H  | -   X   - |
+  R1 | -   -   - | R1
+       C1  H   C3 
+
+Rule 2 & 3:
+A ray that has an atom in its diagonal adjacent position should refract.
+
+  H  | -   -   - |
+  H  | X   -   - |
+  R  | -   X   - |
+       R   H   R  
+
+Input rays: R1, R2, C3
+
+  H  | -   X   - |
+  R2 | -   -   - | C3
+     | -   -   - |
+       R2      C3  
+
+Rule 4:
+A ray that has atoms in both of the diagonal adjacent positions should reflect back.
+
+
+Input ray: C2
+   | -   -   - |
+   | X   -   X |
+   | -   -   - |
+         R   
+
+Input ray: R2
+     | -   X   - |
+  R  | -   -   - |
+     | -   X   - | 
+
+Rule 5:
+The deflection of rays should happen in the order of the input rays.
+
+Input Rays: R3, R2, C1, C3
+   H | -   X   - |
+  R2 | -   -   - | C3
+     | -   -   - |
+       R2      C3 
+
+The final task was to implement these rules for dynamic matrix size.
+
+
+Input : no of rows, no of columns
+  Eg.) 4 4 (row & column)
+       2 (No of atoms)
+       4 4 (Position of atom)
+       2 2 (Position of atom)
+       2 (No of rays)
+       R4 C2 (Ray number)
+
+  H  | -   -   -   X |
+     | -   -   -   - |
+     | -   X   -   - |
+     | -   -   -   - |
+           H  
+
+The final task was very confusing and it had to handle all the cases. There are chances for a ray to end at the starting position if the number of rows and columns are more than 5.
+
+4) Fourth Round : Technical Interview
+Basic questions from hashing, searching, sorting, JVM, OS, Threads. In-depth questions from the projects that I mentioned in my resume. So don’t just add projects that you are not thorough enough to answer all questions.
+
+And a simple puzzle : (x-a)(x-b)(x-c)….(x-z) = ? 😀
+
+5) Fifth Round : HR
+General HR questions like why zoho, how do you see yourself after 5 years, why did you choose CS/IT stream, tell me about your leadership skills etc.
