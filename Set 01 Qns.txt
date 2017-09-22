@@ -1,3 +1,5 @@
+SET 1
+
 Second Round: (Normal Programming round)
 1. Print the word with odd letters as
 
