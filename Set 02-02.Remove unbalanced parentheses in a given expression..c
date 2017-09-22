@@ -36,11 +36,11 @@ int main(void)
 			if(end<i)
 			{
 				for(j=end;str[j]=str[j+1];j++);    //remove unbalanced ')' at middle position 
-				i=i-1;
+				i-=1;
 			}
 		}
 		if(str[i]==')')                                     //remove unbalanced ')' at last positions
-			if(i>end)
+		        if(i>end || i==0)
 			{
 				for(j=i;str[j]=str[j+1];j++);
 				i--;}
