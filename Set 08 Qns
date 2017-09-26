@@ -1,0 +1,53 @@
+
+Zoho Interview | Set 8 (Off-Campus Drive for Project Trainee)
+
+First Round:
+Written, pen paper based. The candidate has to write the output for C programs and basic aptitude questions. Total 30 questions. Test duration was of 3 hours.
+
+Description:
+There were altogether 20 questions from C programs and 10 questions from logical aptitude. Questions from C programming basically focus on pointers (single pointer and pointer-to-pointer) manipulation, 75% of questions from pointers and rest from arrays and strings manipulation. The questions from logical aptitude was of moderate level difficulty ranging from probability to speed distance time calculations. Both section same marks weightage. I solved 13 from C and 7 from apti.
+
+Second Round:
+They shortlisted approx 40 students for the second round. The mail came after 15 days from first round. It was coding round, programming questions on their laptops in groups of 10 students in each room. Test duration was of 3 hours. The test was on 1 Feb 2016.
+Description:
+There were 5 questions. The instructor will check the code after solving each question, they may ask for reducing time/ space complexity, be ready for it.
+
+1. Spiral printing.
+O/P
+4444444
+4333334
+4322234
+4321234
+4322234
+4333334
+4444444
+
+2. Sort the array alternately i.e first element should be max value, second min value, third second max, third second min. Eg: arr[] = {1,2,3,4,5,6,7} O/P: {7,1,6,2,5,3,4} Note: no extra space and time complexity should be less;
+
+3. Print all the substring of the given string.
+
+4. Print the numbers which are mismatched from two array. Arr1 = {a b c d e f g h i}
+arr2 ={ a b d e e g g i i}, O/P- cd, de, f, g, h, i.
+
+5. Print all possible combinations from the given string.
+
+The candidate who solved at least four out five are selected for next advance coding round.
+
+Third Round:
+Third round was followed immediately after completion of second round. 50% candidates were selected for this round which consists of advance programming question. One full fledge project consist of 7 modules which has to be done on their laptops. Test duration was of 3 hours. Test was on 1 Feb 2016.
+
+Description:
+There was one question for each candidate.
+
+1. Develop a railway project which consist of 7 requirements modules. The modules includes booking of railway tickets, cancellation, route option, fare calculations, allotting/dealloting berth, coach position.
+Some other questions given to students were online billing and shopping. The instructor may ask to change the requirements run time, you should be ready for it.
+
+Fourth Round:
+Fourth round was followed immediately after completion of third round. It was face to face interview round in which technical and HR questions were asked. Interview duration was of 20 mins for each student. It was on same day.
+Description:
+This round consist of face to face interview, they asked questions from Java collection framework and core java. Questions related to course project was also asked. Finally, all the round were finished at 8 pm.
+
+
+
+
+
