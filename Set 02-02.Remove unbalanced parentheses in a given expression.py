@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+#Remove unbalanced parentheses in a given expression
 def remove(s,index):
     s=s[:index]+s[index+1:]
     return s
